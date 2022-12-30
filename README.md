@@ -1,6 +1,6 @@
 # Uniswap flashloan example
 
-The contract allows to make 3 swaps in cycling way ```wETH -> LINK -> DAI -> wETH```. It uses ```getAmountsOut``` method from [UniswapV2Library.sol](https://github.com/Uniswap/v2-periphery/blob/master/contracts/libraries/UniswapV2Library.sol) to define ```amountOut``` for [swap](https://docs.uniswap.org/contracts/v2/reference/smart-contracts/pair#swap-1) method in each swap.
+The contract allows to make 3 swaps in cycling way ```wETH -> LINK -> DAI -> wETH```. It uses ```getAmountsOut``` method from [UniswapV2Library.sol](https://github.com/Uniswap/v2-periphery/blob/master/contracts/libraries/UniswapV2Library.sol) to define ```amountOut``` for [swap](https://docs.uniswap.org/contracts/v2/reference/smart-contracts/pair#swap-1) method in each swap and pays fee.
 
 ## Building and running:
 Preliminary add your ```ALCHEMY_KEY``` to environment variables.
